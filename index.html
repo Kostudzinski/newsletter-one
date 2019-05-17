@@ -12,7 +12,6 @@
 "></div>
             </a>
             <p class="text-link">Sprawdź szczegóły na: <a href="http://bit.ly/method-promo">http://bit.ly/method-promo</a></p>
-            <p class="title">TYTUŁ BLOKU</p>
             <h2 class="big-title">Meet Markforged at RAPID + TCT for an Exciting Announcement </h2>
             <p class="text">Join us for RAPID + TCT – North America's most influential additive manufacturing event. You'll see our complete 3D metal printing solution, talk with our technical experts, and be the first to learn about exciting news from Markforged.<br><br> On May 21st at 3pm watch Markforged CEO Greg Mark's presentation on Additive Manufacturing with Metals and Composites: The Next Industrial Revolution is Here. </p>
             <a class="button-link" href="http://bit.ly/method-promo">
@@ -30,13 +29,40 @@
                     <div class="image-social" style="background-image: url(https://cadxpert.pl/wp-content/uploads/2019/05/YT-logo.png)"></div>
                 </a>
             </div>
-            <div class="info">
-                <a href="https://mail.mailnews.pl/c/ctzzd49w0l/aslckj6fqz/"><p>info@druk3d.cx</p></a>
-                <p>tel. +48 12 307 25 24</p>
-                <p>ul. Ciepłownicza 23</p>
-                <p>31-574 Kraków</p>
-                <a href="https://cadxpert.pl/"><p>www.cadxpert.pl</p></a>
+            <div class="top-cont bottom-cont">
+                <div class="item-cont margin-item">
+                    <a href="https://mail.mailnews.pl/c/ctzzd49w0l/aslckj6fqz/">
+                        <p class="bottom-p bot-left">info@druk3d.cx</p>
+                    </a>
+                    <p class="bottom-p bot-left">tel. +48 12 307 25 24</p>
+
+                </div>
+                <div class="top-line"></div>
+                <div class="item-cont">
+                    <p class="bottom-p">ul. Ciepłownicza 23</p>
+                    <p class="bottom-p">31-574 Kraków</p>
+                </div>
             </div>
+            <a class="website" href="https://cadxpert.pl/">
+                <p class="website-p">www.cadxpert.pl</p>
+            </a>
+
+            <!--
+            <div class="info">
+                <a href="https://mail.mailnews.pl/c/ctzzd49w0l/aslckj6fqz/">
+                    <p>info@druk3d.cx</p>
+                </a>
+                <p class="close-contact">tel. +48 12 307 25 24</p>
+                <p>ul. Ciepłownicza 23</p>
+                <p class="close-contact">31-574 Kraków</p>
+                <a href="https://cadxpert.pl/">
+                    <p>www.cadxpert.pl</p>
+                </a>
+            </div>
+-->
+            <p class="bottom-mes">Wiadomość nie wyświetla się poprawnie? <a href="">Zobacz ją w przeglądarce</a></p>
+            <p class="bottom-texts">Mamy nadzieję, że lubisz nasze newslettery. Jeśli nie, <a href="">kliknij tu, by się wypisać.</a></p>
+            <p class="bottom-texts">Dostajesz tę wiadomość, ponieważ zapisałeś się na listę odbiorców newslettera firmy CadXpert z siedzibą przy ul. Ciepłowniczej 23, 31-566 Kraków. Zapoznaj się z naszą <a href="">Polityką prywatności.</a></p>
         </div>
     </div>
 </div>
@@ -60,6 +86,7 @@
     }
     
     .top-cont {
+        display: flex;
         margin: auto;
         position: relative;
         width: max-content;
@@ -70,12 +97,12 @@
     }
     
     .top-cont img {
-        width: 200px;
-        height: 38px;
+        width: 150px;
+        height: 29px;
         padding: 10px 40px 10px 0;
     }
     
-    .top-cont p {
+    .top-p {
         width: 50%;
         letter-spacing: 4px;
         margin-left: 20px;
@@ -191,15 +218,75 @@
         margin-top: 25px;
         margin-right: 40px;
     }
-    
+    /*
     .info p {
         text-align: center;
     }
+    
     .info p:first-child {
         margin-top: 0;
     }
+    
     .info a {
         text-decoration: none;
         color: #d21010;
+    }
+*/
+    
+    .close-contact {
+        margin-top: 5px;
+    }
+    
+    .bottom-p {
+        letter-spacing: 1px;
+    }
+    
+    .bot-left {
+        text-align: right;
+    }
+    
+    .bottom-cont {
+        width: auto;
+    }
+    
+    .margin-item {
+        margin-right: 60px;
+    }
+    
+    .website-p {
+        text-align: center;
+    }
+    
+    .bottom-cont a,
+    .website {
+        color: #d21010;
+        text-decoration: none;
+    }
+    
+    .bottom-mes {
+        margin-top: 40px;
+        background: #fff;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    
+    .bottom-mes a {
+        color: #202020;
+        text-decoration: none;
+    }
+    
+    .bottom-texts {
+        text-align: center;
+        font-size: 10px;
+        color: #808080;
+        margin: 20px;
+        letter-spacing: 0px;
+    }
+    
+    .bottom-texts a {
+        text-decoration: none;
+        color: #303030;
     }
 </style>
